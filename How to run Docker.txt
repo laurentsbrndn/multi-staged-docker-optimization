@@ -1,0 +1,12 @@
+GoLang:
+docker run laurentsbrndn/go-app:v1.4 John 25
+
+Django:
+docker run -d -p 8000:8000 laurentsbrndn/django-app:v1.1.0
+
+Laravel:
+docker run -p 8080:8080 laurentsbrndn/laravel-app:v8.2.0
+docker-compose up --build
+
+ReactJS:
+docker run -d -p 8080:80 react-app:v1.1.0
